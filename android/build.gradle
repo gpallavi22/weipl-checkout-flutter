@@ -26,6 +26,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.worldline.in.weipl_checkout_flutter'
     compileSdkVersion 34
 
     compileOptions {
